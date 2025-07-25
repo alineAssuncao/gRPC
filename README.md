@@ -49,4 +49,11 @@ RPC (Remote Procedure Call)
 
 ## REST vs gRPC
 | REST | gRPC |
-| teste | teste 2|
+|---|---|
+| Texto / JSON | Protocol Buffers |
+| Unidirecional | Bidirecional e Assíncrono |
+| Alta latência | Baixa latência |
+| Sem contrato (maior chance de erros) | Contrato definido (.proto) |
+| Sem suporte a streaming (Request / Response) | Suporte a streaming |
+| Design pré-definido | Design é livre |
+| Bibliotecas de terceiros | Geração de código |
